@@ -1,0 +1,5 @@
+.idea/
+build/
+cmake-build-debug/
+main/web_dist/
+node_modules/

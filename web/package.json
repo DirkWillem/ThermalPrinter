@@ -1,0 +1,14 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "cp index.html ../main/web_dist && cp index.css ../main/web_dist && uglifyjs index.js -o ../main/web_dist/index.js"
+  },
+  "dependencies": {
+    "uglify-es": "^3.3.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
